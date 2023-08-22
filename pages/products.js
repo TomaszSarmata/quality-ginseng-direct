@@ -1,4 +1,5 @@
 import ProductGrid from "@/components/products/product-grid";
+import Content from "@/components/shared/content";
 import Footer from "@/components/shared/footer";
 import Header from "@/components/shared/header";
 import NavBar from "@/components/shared/nav-bar";
@@ -8,7 +9,10 @@ export default function ProductPage() {
     <div>
       <NavBar></NavBar>
       <Header pageTitle="Our Shop"></Header>
-      <ProductGrid></ProductGrid>
+      <Content>
+        <ProductGrid></ProductGrid>
+      </Content>
+
       <Footer></Footer>
     </div>
   );
