@@ -1,6 +1,6 @@
 import ProductGrid from "@/components/products/product-grid";
 
-export default function () {
+export default function ProductPage() {
   return (
     <div>
       <ProductGrid></ProductGrid>
