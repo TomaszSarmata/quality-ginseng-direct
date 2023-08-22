@@ -7,7 +7,7 @@ export default function ProductPage() {
   return (
     <div>
       <NavBar></NavBar>
-      <Header></Header>
+      <Header pageTitle="Our Shop"></Header>
       <ProductGrid></ProductGrid>
       <Footer></Footer>
     </div>
