@@ -1,4 +1,4 @@
-export default function ({ product }) {
+export default function ProductItem({ product }) {
   return (
     <div className="flex flex-col bg-blue-100">
       <div>{product.title}</div>
