@@ -2,6 +2,7 @@ const products = [
   {
     title: "Red Korean Ginseng",
     subtitle: "8000mg Capsules",
+    size: "90 capsules",
     price: "£9.99",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
@@ -10,6 +11,7 @@ const products = [
   {
     title: "White Korean Ginseng",
     subtitle: "8000mg Capsules",
+    size: "90 capsules",
     price: "£9.99",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
@@ -18,6 +20,7 @@ const products = [
   {
     title: "American Ginseng",
     subtitle: "8000mg Capsules",
+    size: "90 capsules",
     price: "£9.99",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
@@ -26,6 +29,7 @@ const products = [
   {
     title: "Brasilian Ginseng",
     subtitle: "8000mg Capsules",
+    size: "90 capsules",
     price: "£9.99",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
@@ -34,6 +38,7 @@ const products = [
   {
     title: "Siberian Ginseng",
     subtitle: "8000mg Capsules",
+    size: "90 capsules",
     price: "£9.99",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
@@ -42,6 +47,7 @@ const products = [
   {
     title: "Indian Ginseng",
     subtitle: "8000mg Capsules",
+    size: "90 capsules",
     price: "£9.99",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
