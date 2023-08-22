@@ -1,6 +1,7 @@
 export default function handler(req, res) {
   const products = [
     {
+      id: "1",
       title: "Red Korean Ginseng",
       subtitle: "8000mg Capsules",
       size: "90 capsules",
@@ -10,6 +11,7 @@ export default function handler(req, res) {
       imgUrl: "/images/",
     },
     {
+      id: "2",
       title: "White Korean Ginseng",
       subtitle: "8000mg Capsules",
       size: "90 capsules",
@@ -19,6 +21,7 @@ export default function handler(req, res) {
       imgUrl: "/images/",
     },
     {
+      id: "3",
       title: "American Ginseng",
       subtitle: "8000mg Capsules",
       size: "90 capsules",
@@ -28,6 +31,7 @@ export default function handler(req, res) {
       imgUrl: "/images/",
     },
     {
+      id: "4",
       title: "Brasilian Ginseng",
       subtitle: "8000mg Capsules",
       size: "90 capsules",
@@ -37,6 +41,7 @@ export default function handler(req, res) {
       imgUrl: "/images/",
     },
     {
+      id: "5",
       title: "Siberian Ginseng",
       subtitle: "8000mg Capsules",
       size: "90 capsules",
@@ -46,6 +51,7 @@ export default function handler(req, res) {
       imgUrl: "/images/",
     },
     {
+      id: "6",
       title: "Indian Ginseng",
       subtitle: "8000mg Capsules",
       size: "90 capsules",
