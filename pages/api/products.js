@@ -8,7 +8,7 @@ export default function handler(req, res) {
       price: "£9.99",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
-      imgUrl: "/images/",
+      imgUrl: "/images/Acerola Cherry 8,000mg 30 Capsules front-1.jpg",
     },
     {
       id: "2",
@@ -18,7 +18,7 @@ export default function handler(req, res) {
       price: "£9.99",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
-      imgUrl: "/images/",
+      imgUrl: "/images/Acerola Cherry 8,000mg 30 Capsules front-1.jpg",
     },
     {
       id: "3",
@@ -28,7 +28,7 @@ export default function handler(req, res) {
       price: "£9.99",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
-      imgUrl: "/images/",
+      imgUrl: "/images/Acerola Cherry 8,000mg 30 Capsules front-1.jpg",
     },
     {
       id: "4",
@@ -38,7 +38,7 @@ export default function handler(req, res) {
       price: "£9.99",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
-      imgUrl: "/images/",
+      imgUrl: "/images/Acerola Cherry 8,000mg 30 Capsules front-1.jpg",
     },
     {
       id: "5",
@@ -48,7 +48,7 @@ export default function handler(req, res) {
       price: "£9.99",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
-      imgUrl: "/images/",
+      imgUrl: "/images/Acerola Cherry 8,000mg 30 Capsules front-1.jpg",
     },
     {
       id: "6",
@@ -58,7 +58,7 @@ export default function handler(req, res) {
       price: "£9.99",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti numquam, ipsum praesentium perspiciatis deserunt dolorem, dolorum quo recusandae soluta odit quisquam veritatis mollitia perferendis ducimus saepe cumque consectetur eligendi",
-      imgUrl: "/images/",
+      imgUrl: "/images/Acerola Cherry 8,000mg 30 Capsules front-1.jpg",
     },
   ];
   res.json(products);
