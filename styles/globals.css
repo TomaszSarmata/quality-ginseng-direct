@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image {
+    background-image: url('/images.banner1.webp');
+    
+}
+
+.bg-image-test {
+    background-image: url('//www.vitabiotics.com/cdn/shop/files/b_d74c2d88-bb80-4f30-8fd7-26462ac6de75_800x660.jpg?v=1667410989');
+}
+
+.test {
+    background-color: aqua;
+}
