@@ -25,17 +25,24 @@ export default function SingleProduct() {
 
   return (
     <div className="w-full max-w-6xl mx-auto">
+      <h1 className="text-4xl my-6 p-4">
+        {singleProduct.title} - {singleProduct.subtitle}
+        <br></br>
+        <span className="text-xl text-gray-700 font-light">
+          Size: {singleProduct.size}
+        </span>
+      </h1>
       <div className="w-full flex flex-row gap-x-2">
-        <div className="w-5/12 bg-red-100 p-4">
+        <div className="w-5/12  p-4">
           <img src={singleProduct.imgUrl} alt="" />
         </div>
-        <div className="w-7/12 bg-blue-100 p-4 flex flex-row gap-x-4">
-          <div className="w-6/12 p-4 bg-green-100">
-            <div>{singleProduct.title}</div>
+        <div className="w-7/12  p-4 flex flex-row gap-x-4">
+          <div className="w-6/12 p-4 ">
+            <div className="text-xl font-bold">{singleProduct.title}</div>
             <div>{singleProduct.description}</div>
           </div>
-          <div className="w-6/12 p-4 bg-pink-100">
-            <div>Benefits</div>
+          <div className="w-6/12 p-4 ">
+            <div className="text-xl font-bold">Benefits</div>
             <div>
               <ul className="list-disc">
                 <li>
