@@ -2,15 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-image {
-    background-image: url('/images.banner1.webp');
-    
+.bg-image1 {
+    background-image: url('/images/banner1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(50vh + 10vw)
 }
 
-.bg-image-test {
-    background-image: url('//www.vitabiotics.com/cdn/shop/files/b_d74c2d88-bb80-4f30-8fd7-26462ac6de75_800x660.jpg?v=1667410989');
+.bg-image2 {
+    background-image: url('/images/banner2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(50vh + 10vw)
 }
 
-.test {
-    background-color: aqua;
+.bg-image3 {
+    background-image: url('/images/banner3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(50vh + 10vw)
 }
+
+.banner-title {
+    line-height: 1.15;
+    font-family: Metropolis,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    font-weight: 700;
+    color: white;
+    text-shadow: rgb(0 0 0 / 83%) 0px 3px 8px;
+    font-size: calc(2.5em + 1vmin);
+}
+
+
+
