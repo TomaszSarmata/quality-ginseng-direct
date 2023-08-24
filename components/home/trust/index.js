@@ -1,19 +1,15 @@
 export default function TrustDisplay() {
   return (
-    <div className="flex flex-row items-center justify-center bg-gray-50 my-10">
+    <div className="flex flex-row items-center  bg-gray-50 my-20">
       <div className="w-6/12">
         <img src="/images/content.webp" alt="" />
       </div>
       <div className="w-6-12 pl-10 ">
-        <ol className="flex flex-col gap-y-10">
+        <ol className="flex flex-col gap-y-10 text-start w-10/12">
           <li className="text-4xl">Supplements You Can Trust</li>
           <li className="flex gap-x-3  ">
             <div>
-              <img
-                className="h-9 self-start"
-                src="/images/QA_100x.webp"
-                alt=""
-              />
+              <img className="h-9" src="/images/QA_100x.webp" alt="" />
             </div>
             <div>
               <h4 className="text-xl font-medium mb-1">Qeen's Award Winning</h4>
